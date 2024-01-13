@@ -12,11 +12,7 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
-.hexagon img{
-  width: 320px;
-  height: 290px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
+
 
 .hero {
   min-height: 100vh;
@@ -153,6 +149,12 @@ nav {
   color: #fff;
   flex-wrap: wrap;
   padding: 0 8vw ;
+}
+
+.hexagon img{
+  width: 370px;
+  height: 350px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
 .two-side .left1 {
